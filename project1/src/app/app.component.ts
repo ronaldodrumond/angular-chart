@@ -8,13 +8,12 @@ import { Country } from './country';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Chart';
+  title = 'Project1';
 
   countries: string[];
   percentages: number[];
 
-  constructor ()
-  {
+  constructor () {
     const jsonObject: object =
     [
       {
